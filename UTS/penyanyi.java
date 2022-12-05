@@ -10,11 +10,10 @@ package UTS;
  * @author Z-low
  * TI-A
  */
-public class penyanyi {
-
-    public static void main(String[] args) {
-        Pop[] pop = new Pop("Black Pink", "How You Like That");
-        Dangdut.dangdut = new dangdut();
+public class penyanyi extends pop{
+    public static void main(String[]args){
+        pop pop = new pop ("Black Pink", "How You Like That");
+        Dangdut dangdut = new Dangdut();
         
         pop.singer("Eclat Story");
         pop.song("Bentuk Cinta");
@@ -25,4 +24,4 @@ public class penyanyi {
         dangdut.song("Via Vallen", "Kopi Dangdut");
         dangdut.cetakLabel();
     }
-}
+}  
